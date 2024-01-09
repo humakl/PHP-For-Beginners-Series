@@ -2,7 +2,6 @@
 
 use Core\App;
 use Core\Database;
-use Core\Validator;
 use Http\Forms\LoginForm;
 
 $db = App::resolve(Database::class);
